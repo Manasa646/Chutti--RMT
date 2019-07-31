@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546861027360' stop='1546861061613'>
+    <name>Login as Hiring Manager</name>
+    <title>Login as Hiring Manager</title>
+    <test-cases>
+        <test-case start='1546861039553' status='passed' stop='1546861056454'>
+            <name>Raise Requisition Request</name>
+            <title>Raise Requisition Request</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='acb417b8-ab1e-4550-b61e-c5f6cc29b987-attachment.png' type='image/png' size='77393'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546861056454' status='passed' stop='1546861061612'>
+            <name>upload a file</name>
+            <title>upload a file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='00dad07f-cf29-4749-a63e-89cd1ed46ff2-attachment.png' type='image/png' size='77393'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

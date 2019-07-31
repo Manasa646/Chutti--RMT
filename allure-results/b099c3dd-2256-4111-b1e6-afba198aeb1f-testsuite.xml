@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547112161382' stop='1547112184721'>
+    <name>Navigate to Settings</name>
+    <title>Navigate to Settings</title>
+    <test-cases>
+        <test-case start='1547112161382' status='passed' stop='1547112184719'>
+            <name>Add Roles</name>
+            <title>Add Roles</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f5e09427-3d14-41f3-a9a6-09b4933913ae-attachment.png' type='image/png' size='64034'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

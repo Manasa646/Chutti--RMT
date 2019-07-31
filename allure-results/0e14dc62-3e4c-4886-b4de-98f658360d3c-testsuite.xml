@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547451010807' stop='1547451029183'>
+    <name>Navigate to RMT URL</name>
+    <title>Navigate to RMT URL</title>
+    <test-cases>
+        <test-case start='1547451010807' status='passed' stop='1547451013962'>
+            <name>Login as HR</name>
+            <title>Login as HR</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='14ff39e2-8d71-46c8-ae28-a7c6e93093d4-attachment.png' type='image/png' size='86740'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547451013962' status='passed' stop='1547451029183'>
+            <name>Check for Inactivelist records</name>
+            <title>Check for Inactivelist records</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='06e0e8a5-7b80-4945-b5c9-f910dd9a9526-attachment.png' type='image/png' size='1225990'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

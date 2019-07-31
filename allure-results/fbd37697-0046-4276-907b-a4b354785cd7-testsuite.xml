@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547463060022' stop='1547463089380'>
+    <name>Login as HiringManager</name>
+    <title>Login as HiringManager</title>
+    <test-cases>
+        <test-case start='1547463060023' status='passed' stop='1547463070626'>
+            <name>Login as HiringManager</name>
+            <title>Login as HiringManager</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ec3c1bd7-904e-4c1e-b68c-4845d1c2624c-attachment.png' type='image/png' size='87206'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547463070626' status='passed' stop='1547463089379'>
+            <name>Shortlist a candidate</name>
+            <title>Shortlist a candidate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e4d47bd6-0d23-4e9f-b0e5-6fa2b4eafed6-attachment.png' type='image/png' size='1225990'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547095781581' stop='1547095795336'>
+    <name>Navigate to Settings Navigate to RMT URL</name>
+    <title>Navigate to Settings Navigate to RMT URL</title>
+    <test-cases>
+        <test-case start='1547095781581' status='passed' stop='1547095795334'>
+            <name>Open Login Page</name>
+            <title>Open Login Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='96cbd74f-b69a-444e-b613-7726a3356f57-attachment.png' type='image/png' size='1315510'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

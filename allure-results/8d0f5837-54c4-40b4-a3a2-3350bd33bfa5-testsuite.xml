@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547098643597' stop='1547098654017'>
+    <name>Login as HR Navigate to URL</name>
+    <title>Login as HR Navigate to URL</title>
+    <test-cases>
+        <test-case start='1547098643598' status='passed' stop='1547098654016'>
+            <name>Login as HR</name>
+            <title>Login as HR</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='76aaa3d0-6e91-4048-ab7a-1479abae96f3-attachment.png' type='image/png' size='95812'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

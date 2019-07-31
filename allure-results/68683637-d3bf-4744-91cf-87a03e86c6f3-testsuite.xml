@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547104751006' stop='1547104751120'>
+    <name>Navigate to settings</name>
+    <title>Navigate to settings</title>
+    <test-cases>
+        <test-case start='1547104751006' status='failed' stop='1547104751120'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='238fbeab-0faf-45b5-9361-1d24671ea280-attachment.png' type='image/png' size='4702'/>
+            </attachments>
+            <failure>
+                <message>Error: Cannot find module '../Testcases/Adminlogin.js'</message>
+                <stack-trace>Error: Cannot find module '../Testcases/Adminlogin.js'
+                    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+                    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+                    at Module.require (internal/modules/cjs/loader.js:637:17)
+                    at require (internal/modules/cjs/helpers.js:22:18)
+                    at Suite.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/RegressionTestcases/HiringManagerrole.js:6:5)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/RegressionTestcases/HiringManagerrole.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

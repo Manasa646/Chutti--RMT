@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546950247331' stop='1546950261010'>
+    <name>Login as Admin</name>
+    <title>Login as Admin</title>
+    <test-cases>
+        <test-case start='1546950255866' status='failed' stop='1546950261010'>
+            <name>Select DeptLead for Department</name>
+            <title>Select DeptLead for Department</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='18cba5ec-885f-475f-9e79-2fc1b113761a-attachment.png' type='image/png' size='95650'/>
+            </attachments>
+            <failure>
+                <message>Failed: element with locator 'By(link text, settings)' is not clickable. Possibly it's not present or visible. Or it may be disabled.
+                Wait timed out after 5015ms</message>
+                <stack-trace>TimeoutError: element with locator 'By(link text, settings)' is not clickable. Possibly it's not present or visible. Or it may be disabled.
+                Wait timed out after 5015ms
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2201:17
+                    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: element with locator 'By(link text, settings)' is not clickable. Possibly it's not present or visible. Or it may be disabled.
+                    at scheduleWait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)
+                    at ControlFlow.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)
+                    at Driver.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+                    at run (/usr/local/lib/node_modules/protractor/built/browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as wait] (/usr/local/lib/node_modules/protractor/built/browser.js:67:16)
+                    at Object.waitForElementToBeClickable (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/node_modules/protractor-helper/constants_and_utils/utils.js:43:11)
+                    at Object.clickWhenClickable (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/node_modules/protractor-helper/index.js:85:9)
+                    at UserContext.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Adddeptlead.js:8:22)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                From: Task: Run it("Select DeptLead for Department") in control flow
+                    at UserContext.&lt;anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Adddeptlead.js:7:5)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Adddeptlead.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

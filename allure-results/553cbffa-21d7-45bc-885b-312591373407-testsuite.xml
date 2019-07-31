@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547098994293' stop='1547099015392'>
+    <name>Navigate to settings</name>
+    <title>Navigate to settings</title>
+    <test-cases>
+        <test-case start='1547099004047' status='passed' stop='1547099015391'>
+            <name>Add role for Hiring Manager</name>
+            <title>Add role for Hiring Manager</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f0b3e738-5fc9-46c0-bac4-e59e579d421e-attachment.png' type='image/png' size='60877'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

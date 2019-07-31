@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546755535963' stop='1546755731469'>
+    <name>Sample test case</name>
+    <title>Sample test case</title>
+    <test-cases>
+        <test-case start='1546755535965' status='failed' stop='1546755731468'>
+            <name>Login</name>
+            <title>Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2161bca7-4253-4de0-90cf-9b3ef043bcb8-attachment.png' type='image/png' size='173632'/>
+            </attachments>
+            <failure>
+                <message>Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: smtp.gmail.com. is not in the cert's altnames: DNS:imap.gmail.com</message>
+                <stack-trace>Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: smtp.gmail.com. is not in the cert's altnames: DNS:imap.gmail.com
+                    at Object.checkServerIdentity (tls.js:228:17)
+                    at TLSSocket.onConnectSecure (_tls_wrap.js:1059:27)
+                    at TLSSocket.emit (events.js:182:13)
+                    at TLSSocket._finishInit (_tls_wrap.js:631:8)
+                    at Socket.ondata (internal/wrap_js_stream.js:63:22)
+                    at Socket.emit (events.js:182:13)
+                    at addChunk (_stream_readable.js:283:12)
+                    at readableAddChunk (_stream_readable.js:264:11)
+                    at Socket.Readable.push (_stream_readable.js:219:10)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:94:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

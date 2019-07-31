@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547616774988' stop='1547616817378'>
+    <name>Login as Admin</name>
+    <title>Login as Admin</title>
+    <test-cases>
+        <test-case start='1547616774988' status='passed' stop='1547616786467'>
+            <name> Login as Aedmin</name>
+            <title> Login as Aedmin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='14e8553e-492f-456c-b5f4-7d30082db27b-attachment.png' type='image/png' size='93036'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547616786467' status='passed' stop='1547616817378'>
+            <name>Select DeptLead for Department</name>
+            <title>Select DeptLead for Department</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3b9a1737-33fb-47d0-9917-3cf566de1fe1-attachment.png' type='image/png' size='1225990'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

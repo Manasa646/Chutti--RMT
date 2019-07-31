@@ -1,0 +1,71 @@
+{
+    "RmtData":{
+        "LoginData":{
+            "username":"test@demo.cloudnowtech.com",
+            "password":"password1"
+        },
+        "Roledetails":{
+            "rolename":"Dept Lead",
+            "description":"Dept Lead"
+        },
+        "HRLeadRole":{
+            "rolename":"HR Manager",
+            "description":"HR Manager"
+        },
+        "HiringManager":{
+            "rolename":"HM TeamLead",
+            "description":"HM TeamLead"
+        },
+        "HMLogin":{
+            "username":"test1@demo.cloudnowtech.com",
+            "password":"password1"
+        },
+        "requestdata":{
+            "jobtitle":"DotNet developer",
+            "Projectname":"Ecommerce",
+            "Experience":"3",
+            "primaryskill":"WCF EntityFramework ",
+            "Positions":"10",
+            "Ctc":"4lakhs",
+            "date":"1/20/2019",
+            "file":"/home/cnt-dev/Documents/Chutti-RMT/requisition-management/UploadFile/Java.txt"
+
+        },
+        "DeptLead":{
+            "username":"testm@demo.cloudnowtech.com",
+            "password":"password1",
+            "Onholdremarks":"Hold the requirement as now"
+        },
+        "Hrlogin":{
+            "username":"teste@demo.cloudnowtech.com",
+            "password":"password1"
+        },
+        "recruiter":{
+            "username":"manasa.m@cloudnowtech.com",
+            "password":"password1"
+        },
+        "candidateinfo":{
+            "firstname":"Sanjay",
+            "lastname":"A",
+            "email":"qa@demo.cloudnowtech.com",
+            "primaryno":"8899776655",
+            "currentlocation":"Chennai",
+            "preferedlocation":"Banglore",
+            "primaryskill":"ABAP",
+            "secondaryskill":"PP MM",
+            "currentctc":"300000",
+            "expectedctc":"500000",
+            "orgname":"Visualsolutions",
+            "Designation":"ABAP Developer",
+            "Expfrom":"2/3/2016",
+            "ExpTo":"12/30/2018",
+            "institution":"St.Mary's Group of Institutions",
+            "Degree":"B.Tech",
+            "name":"ABAP",
+            "nameoftheinstituion":"Emax Solutions"
+        },
+        "notsuitable":{
+            "remarks":"Right now not required"
+        }
+    }
+}

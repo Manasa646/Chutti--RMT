@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546755483884' stop='1546755487012'>
+    <name>Sample test case</name>
+    <title>Sample test case</title>
+    <test-cases>
+        <test-case start='1546755483884' status='failed' stop='1546755487012'>
+            <name>Login</name>
+            <title>Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0b673997-29bb-43f7-907c-34921c562703-attachment.png' type='image/png' size='29572'/>
+            </attachments>
+            <failure>
+                <message>Error: getaddrinfo ENOTFOUND imap-host imap-host:993</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND imap-host imap-host:993
+                    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

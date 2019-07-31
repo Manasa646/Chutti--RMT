@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547614762812' stop='1547614805921'>
+    <name>Navigate to Settings</name>
+    <title>Navigate to Settings</title>
+    <test-cases>
+        <test-case start='1547614762813' status='passed' stop='1547614776082'>
+            <name>Login as Admin</name>
+            <title>Login as Admin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='306d8286-731f-471a-b75a-6d2e0604060d-attachment.png' type='image/png' size='93036'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547614776082' status='passed' stop='1547614805921'>
+            <name>Add HRLead Role</name>
+            <title>Add HRLead Role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c2a732e2-de34-4f3d-99b3-5a0fdfdacc5d-attachment.png' type='image/png' size='1225990'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547099492842' stop='1547099511455'>
+    <name>Login as HR</name>
+    <title>Login as HR</title>
+    <test-cases>
+        <test-case start='1547099503252' status='passed' stop='1547099511455'>
+            <name>Check for sourcedlist records</name>
+            <title>Check for sourcedlist records</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='04b8aaff-0fe4-4ede-bbea-217c1e017943-attachment.png' type='image/png' size='96325'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

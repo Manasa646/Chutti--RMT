@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547104751231' stop='1547104751347'>
+    <name>Login as Recruiter</name>
+    <title>Login as Recruiter</title>
+    <test-cases>
+        <test-case start='1547104751231' status='failed' stop='1547104751346'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='91a51786-0c21-4591-ac37-3f3bc457beb6-attachment.png' type='image/png' size='4702'/>
+            </attachments>
+            <failure>
+                <message>Error: Cannot find module '../Testcases/recruiterlogin.js'</message>
+                <stack-trace>Error: Cannot find module '../Testcases/recruiterlogin.js'
+                    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+                    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+                    at Module.require (internal/modules/cjs/loader.js:637:17)
+                    at require (internal/modules/cjs/helpers.js:22:18)
+                    at Suite.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/RegressionTestcases/updatecandidatestatus.js:5:5)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/RegressionTestcases/updatecandidatestatus.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

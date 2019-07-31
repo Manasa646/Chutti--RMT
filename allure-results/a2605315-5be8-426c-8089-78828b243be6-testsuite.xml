@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547010834246' stop='1547010889350'>
+    <name>Login as Recruiter</name>
+    <title>Login as Recruiter</title>
+    <test-cases>
+        <test-case start='1547010849303' status='passed' stop='1547010889349'>
+            <name>Upload a candidate</name>
+            <title>Upload a candidate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='73f50a42-f651-4848-9062-cbd0e38cfdae-attachment.png' type='image/png' size='103160'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

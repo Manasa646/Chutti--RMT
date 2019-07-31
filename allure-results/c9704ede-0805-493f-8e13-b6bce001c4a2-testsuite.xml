@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546498576330' stop='1546498584603'>
+    <name>Login as HiringManager</name>
+    <title>Login as HiringManager</title>
+    <test-cases>
+        <test-case start='1546498584479' status='failed' stop='1546498584602'>
+            <name>Shortlist a candidate</name>
+            <title>Shortlist a candidate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='81c3cf5e-ac48-44b2-8ab8-0c6548428a13-attachment.png' type='image/png' size='88008'/>
+            </attachments>
+            <failure>
+                <message>Failed: timeout must be a number >= 0: Right now not required</message>
+                <stack-trace>TypeError: timeout must be a number >= 0: Right now not required
+                    at scheduleWait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2146:11)
+                    at ControlFlow.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)
+                    at Driver.wait (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+                    at run (/usr/local/lib/node_modules/protractor/built/browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as wait] (/usr/local/lib/node_modules/protractor/built/browser.js:67:16)
+                    at Object.waitForElementToBeClickable (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/node_modules/protractor-helper/constants_and_utils/utils.js:43:11)
+                    at Object.clickWhenClickable (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/node_modules/protractor-helper/index.js:85:9)
+                    at UserContext.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Notsuitable.js:15:26)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                From: Task: Run it("Shortlist a candidate") in control flow
+                    at UserContext.&lt;anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Notsuitable.js:7:5)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Notsuitable.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

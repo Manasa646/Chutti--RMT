@@ -1,0 +1,160 @@
+{
+    "RequisitionToolLocators":
+    {
+"URL" : "",
+
+"AdminLogin":{
+    "username":"mat-input-0",
+    "password":"//input[@placeholder = 'Password']",
+    "signin":"//button[@type='submit']",
+    "clickperson":"person",
+    "logout":"/html/body/app-my-app/app-layout/div/div[2]/app-navbar-cmp/nav/div/div[3]/div/div/ul/li[3]/ul/li[3]/a",
+    "Dashboard":"Parentmanus"
+},
+"AddRoles":{
+"clicksettings":"/html/body/app-my-app/app-layout/div/div[2]/app-navbar-cmp/nav/div/div[3]/div/div/ul/li[2]/a/b",
+"clickroles":"/html/body/app-my-app/app-layout/div/div[2]/app-navbar-cmp/nav/div/div[3]/div/div/ul/li[2]/ul/li[5]/a",
+"clickadd":"//button[@class='btn btn-primary btn-round btn-fab mat-fab mat-accent']",
+"rolename":"//input[@placeholder='Role Name']",
+"desc":"//input[@placeholder='Description']",
+"permission":"//*[@id='rootwizard']/ul[1]/li[7]/a",
+"Checkresourcerequest":"//*[@id='mat-checkbox-27']/label/span",
+"checkrequisitionlist":"//*[@id='mat-checkbox-28']/label/span",
+"submit":"//button[@type='submit']"
+},
+"HRRole":{
+    "CheckassignRequest":"//*[@id='mat-checkbox-26']/label/span",
+    "Btnsubmit":"Submit"
+},
+"Raiserequest":{
+    "ClickResource":"Resource",
+    "clickRequisitionlist":"Requisition  List",
+    "clickadd":"/html/body/app-my-app/app-layout/div/div[2]/app-requestlist/div/div/div/div/div/div[2]/div/div/a",
+    "jobtitle":"//input[@placeholder='Job Title']",
+    "Projectname":"//input[@placeholder='Project Name']",
+    "Experience":"//input[@placeholder='Experience (IN YEAR)']",
+    "Primaryskill":"//input[@placeholder='Primary Skill']",
+    "Qualification":"//input[@placeholder='Educational Oualification']",
+    "Degree":"mat-option-18",
+    "Noofpositions":"//input[@placeholder='No.of position tobe filled']",
+    "Gender":"//mat-select[@placeholder='Select Gender']",
+    "selectgender":"mat-option-9",
+    "AgeGroup":"//mat-select[@placeholder='Age Group']",
+    "selectage":"mat-option-11",
+    "ApproxCTC":"//input[@placeholder='Approx. Monthly salary/CTC']",
+   "position":"//input[@placeholder='Position to be filled By']",
+   "senddate":"//div[@class='mat-input-infix mat-form-field-infix']/mat-datepicker",
+    "EmploymentType":"//mat-select[@placeholder='Employment Type']",
+    "JobType":"//mat-option[@value='Full time']/span",
+    "JD":"//mat-radio-button[@id='mat-radio-7']/label",
+    "choosefile":"fileinput-new",
+    "Existingjob":"//mat-radio-button[@id='mat-radio-6']/label",
+    "selectjobfromexisting":"//input[@placeholder='Select Job Description']",
+    "Jobrole":"//mat-option[@id='mat-option-33']/span",
+    "submit":"/html/body/app-my-app/app-layout/div/div[2]/app-requestlist/div/div/div/div/div/div[2]/addeditrequisition/div/div/form/div[7]/div[1]/button"
+},
+"Approve":{
+    "clickresourcerequest":"Resource Request",
+    "viewdetail":"//*[@id='requestlist']/div/div/div/div/mat-table/mat-row[1]/mat-cell[8]/i/i",
+    "Approval":"APPROVE"
+},
+"OnHold":{
+    "remarks":"//input[@placeholder='Remarks']",
+    "clickonhold":"HOLD"
+},
+"Assignrecruiter":{
+    "request":"Assign Request",
+    "assignrecruiter":"/html/body/app-my-app/app-layout/div/div[2]/assignrequest/div/div/div/div/div/div[2]/div/div[2]/div/mat-table/mat-row[4]/mat-cell[9]/i/i",
+    "recruiter":"//mat-select[@placeholder='Select Recruiters']",
+    "selectrecruiter":"//*[@id='mat-option-7']",
+    "Assign":"/html/body/div[2]/div[1]",
+    "clickassign":"Assign"
+
+},
+"uploadcandidate":{
+    "assignrequest":"Assigned Request",
+    "viewdetail":"/html/body/app-my-app/app-layout/div/div[2]/assignedcandidate/div/div/div/div/div/div[2]/div/span/div[2]/div/mat-table/mat-row[2]/mat-cell[9]/button",
+    "candidatelist":"//*[@id='mat-tab-label-0-1']",
+    "clickadd":"//a[@class='btn btn-primary btn-round btn-fab mat-fab mat-accent']",
+    "generalinfo":"//mat-expansion-panel-header[@id='mat-expansion-panel-header-0']",
+    "firstname":"//input[@placeholder='First Name']",
+    "lastname":"//input[@placeholder='Last Name']",
+    "email":"//input[@placeholder='Email']",
+    "primaryNo":"//input[@placeholder='Primary Contact.No']",
+    "currentlocation":"//input[@placeholder='Current Location']",
+    "Preferredlocation":"//input[@placeholder='Preferred Location']",
+    "primaryskill":"//input[@placeholder='Primary Skill']",
+    "secondaryskill":"//input[@placeholder='Secondary Skill']",
+    "Noticeperiod":"//mat-select[@placeholder='Select Notice Period']",
+    "selectnoticeperiod":"//mat-option[@value='2 Months']/span",
+    "currentCTC":"//input[@placeholder='Current CTC(In lakhs)']",
+    "expectedCTC":"//input[@placeholder='Expected CTC(In lakhs)']",
+    "ExpSummary":"//mat-expansion-panel-header[@id='mat-expansion-panel-header-1']",
+    "Organizationname":"//input[@placeholder='Organisation Name']",
+    "Designation":"//input[@placeholder='Designation']",
+    "Expfrom":"//input[@placeholder='Experience From']",
+    "Expto":"//input[@placeholder='Experience To']",
+    "AddExp":"//*[@id='cdk-accordion-child-1']/div/div[2]/form/button",
+    "EducationalQualification":"//mat-expansion-panel-header[@id='mat-expansion-panel-header-2']",
+    "University":"//input[@placeholder='Institution/University']",
+    "Qualification":"//input[@placeholder='Qualification']",
+    "Yearofpassing":"//mat-select[@placeholder='Year of Passing']",
+    "selectyear":"//mat-option[@value='2014']/span",
+    "Add":"//*[@id='cdk-accordion-child-2']/div/div[2]/form/div/div[4]/div/button",
+    "Certifications":"//mat-expansion-panel-header[@id='mat-expansion-panel-header-3']",
+    "certificationname":"//input[@placeholder='Ceritification Name']",
+    "Institutionname":"//input[@placeholder='Institution Name']",
+    "certifiedyear":"//mat-select[@placeholder='Certified Year']",
+    "selectcertifiedyear":"//mat-option[@value='2016']/span",
+    "AddCertification":"//*[@id='cdk-accordion-child-3']/div/div[2]/form/div/div[4]/button",
+    "submit":"Submit"
+},
+"recordlist":{
+    "candidatelist":"Candidate List",
+    "clickrecords":"//*[@id='mat-select-0']/div/div[1]/span/span",
+    "sourced":"//mat-option[@value='Sourced']/span",
+    "search":"//button[@type='submit']",
+    "active":"//*[@id='cdk-overlay-0']",
+    "inactive":"//mat-option[@value='InActive']/span"
+},
+"Shortlistcandidate":{
+    "viewdetail":"/html/body/app-my-app/app-layout/div/div[2]/app-requestlist/div/div/div/div/div/div[2]/div/span/div[2]/div/mat-table/mat-row[6]/mat-cell[9]/span/button/span/mat-icon",
+    "candidatelist":"//div[@id='mat-tab-label-0-1']",
+    "sourceshortlist":"//*[@id='mat-tab-content-0-1']/div/candidatelist/div/div/div/div/div[2]/div[2]/div/mat-table/mat-row[4]/mat-cell[8]/span/button/span/mat-icon",
+   "shortlist":"Shortlist"
+    
+},
+"Notshortlisted":{
+    "viewdetail":"/html/body/app-my-app/app-layout/div/div[2]/app-requestlist/div/div/div/div/div/div[2]/div/span/div[2]/div/mat-table/mat-row[6]/mat-cell[9]/span/button/span/mat-icon",
+    "candidatelist":"//div[@id='mat-tab-label-0-1']",
+    "actions":"//*[@id='mat-tab-content-0-1']/div/candidatelist/div/div/div/div/div[2]/div[2]/div/mat-table/mat-row[1]/mat-cell[8]/span/button/span/mat-icon",
+    "Remarks":"//input[@placeholder='Remarks']",
+     "notsuitable":"Not Suitable"
+},
+"updatestatus":{
+    "clickview":"/html/body/app-my-app/app-layout/div/div[2]/assignedcandidate/div/div/div/div/div/div[2]/div/span/div[2]/div/mat-table/mat-row[2]/mat-cell[9]/button",
+    "candidatelist":"//*[@id='mat-tab-label-0-1']",
+    "selectrecords":"//div[@class='mat-select-value']/span",
+    "Active":"//mat-option[@value='active']/span",
+    "Editinfo":"//*[@id='mat-tab-content-0-1']/div/candidatelist/div/div/div/div/div[2]/div[3]/div/mat-table/mat-row[1]/mat-cell[8]/span/button[1]/span/mat-icon",
+    "generalinfo":"//mat-expansion-panel-header[@id='mat-expansion-panel-header-0']",
+    "selectstatus":"//mat-select[@placeholder='Selecte Status']",
+    "updatestatus":"//mat-option[@value='Qualified for next round']/span",
+    "submit":"//*[@id='mat-tab-content-0-1']/div/candidatelist/div/div/div/div/mat-accordion/div/div[1]/button"
+},
+"AddDeptLead":{
+    "settings":"settings",
+    "Departments":"/html/body/app-my-app/app-layout/div/div[2]/app-navbar-cmp/nav/div/div[3]/div/div/ul/li[2]/ul/li[1]/a",
+    "edit":"/html/body/app-my-app/app-layout/div/div[2]/app-extended-table-cmp/div/div/div/div/div/div[2]/mat-card/div/div[3]/div/mat-table/mat-row[3]/mat-cell[4]/button[1]/span/mat-icon",
+    "Deptlead":"//input[@placeholder='Depertment Lead']",
+    "selectlead":"//*[@id='mat-option-10']/span/span",
+    "submit":"/html/body/app-my-app/app-layout/div/div[2]/app-extended-table-cmp/div/div/div/div/div/div[2]/div/div/form/div[5]/div[1]/button"
+}
+
+}
+
+
+}
+
+
+    

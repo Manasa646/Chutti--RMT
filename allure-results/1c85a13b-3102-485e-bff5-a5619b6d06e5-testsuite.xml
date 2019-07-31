@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547010730916' stop='1547010742427'>
+    <name>Login as Recruiter Navigate to RMT URL</name>
+    <title>Login as Recruiter Navigate to RMT URL</title>
+    <test-cases>
+        <test-case start='1547010730916' status='passed' stop='1547010742421'>
+            <name>Login as Recruiter</name>
+            <title>Login as Recruiter</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='61d1364f-381b-463a-9ee7-4cafb85c3fcd-attachment.png' type='image/png' size='1314992'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

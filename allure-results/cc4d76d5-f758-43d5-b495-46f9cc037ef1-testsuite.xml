@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546783174732' stop='1546783177937'>
+    <name>Sample test case</name>
+    <title>Sample test case</title>
+    <test-cases>
+        <test-case start='1546783174733' status='failed' stop='1546783177936'>
+            <name>Login</name>
+            <title>Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ecb43ee1-41b6-4904-9206-09670bc848b6-attachment.png' type='image/png' size='29999'/>
+            </attachments>
+            <failure>
+                <message>Expected undefined to equal 'Chutti'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (/home/cnt-dev/Documents/Chutti-RMT/requisition-management/Testcases/Email.js:23:30)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
